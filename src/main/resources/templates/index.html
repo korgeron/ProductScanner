@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>HELLO, WORLD!</h1>
+
+<button id="scan" type="button">Scan</button>
+<button id="stopScan" type="button">Stop</button>
+<div class="displayCode"></div>
+<div id="scanner"></div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/quagga@0.12.1/dist/quagga.min.js"></script>
+<script th:src="@{~/js/scanner.js}"></script>
+</body>
+</html>
